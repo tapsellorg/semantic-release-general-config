@@ -17,7 +17,7 @@ This shareable configuration use the following plugins:
 ## Install
 
 ```bash
-$ npm install --save-dev semantic-release @semantic-release/gitlab-config
+$ npm install --save-dev semantic-release @tapsellorg/semantic-release-general-config
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ The shareable config can be configured in the [**semantic-release** configuratio
 
 ```json
 {
-  "extends": "@semantic-release/gitlab-config"
+  "extends": "@tapsellorg/semantic-release-general-config"
 }
 ```
 

@@ -2,7 +2,7 @@
   "name": "@tapsellorg/semantic-release-general-config",
   "description": "semantic-release shareable config for Tapsell",
   "version": "1.0.0",
-  "author": "Vahid Mohammadi",
+  "author": "Vahid Mohammadi <vahidm1467@gmail.com>",
   "bugs": {
     "url": "https://github.com/tapsellorg/semantic-release-general-config/issues"
   },

@@ -7,14 +7,14 @@
     "url": "https://github.com/tapsellorg/semantic-release-general-config/issues"
   },
   "dependencies": {
-    "@semantic-release/commit-analyzer": "^9.0.1",
-    "@semantic-release/gitlab": "^9.0.0",
-    "@semantic-release/npm": "^9.0.0",
-    "@semantic-release/release-notes-generator": "^10.0.2"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/gitlab": "^9.4.1",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3"
   },
   "devDependencies": {
-    "semantic-release": "19.0.3",
-    "xo": "0.39.1"
+    "semantic-release": "19.0.3"
   },
   "engines": {
     "node": ">=16"
@@ -49,16 +49,7 @@
     "url": "https://github.com/tapsellorg/semantic-release-general-config.git"
   },
   "scripts": {
-    "semantic-release": "semantic-release",
-    "test": "xo",
-    "lint": "xo"
-  },
-  "xo": {
-    "prettier": true,
-    "space": true,
-    "rules": {
-      "unicorn/string-content": "off"
-    }
+    "semantic-release": "semantic-release"
   },
   "renovate": {
     "extends": [

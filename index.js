@@ -18,22 +18,7 @@ module.exports = {
         },
       },
     ],
-    [
-      "@semantic-release/release-notes-generator",
-      {
-        preset: "conventionalcommits",
-        presetConfig: {
-          types: [
-            { type: "feat", section: "Features & Improvements" },
-            { type: "improve", section: "Features & Improvements" },
-            { type: "fix", section: "Bug Fixes" },
-            { type: "style", section: "Style Changes", hidden: true },
-          ],
-        },
-        linkReferences: false,
-        writerOpts: {},
-      },
-    ],
+    "@semantic-release/release-notes-generator",
     [
       "@semantic-release/exec",
       {
